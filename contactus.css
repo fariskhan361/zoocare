@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+header {
+    padding: 20px 100px;
+    transition: 1s ease;
+    background-color: rgba(240, 248, 255, 0.527);
+}
+
+header:hover {
+    background-color: #fff;
+}
+
+header .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.img-box {
+    width: 65px;
+    height: 65px;
+}
+
+.img-box img {
+    max-width: 100%;
+    height: auto;
+    transition: 0.5s ease ;
+}
+
+.img-box img:hover {
+    scale: 1.4;
+}
+
+nav ul {
+    display: flex;
+    text-transform: capitalize;
+    list-style: none;
+    gap: 50px;
+    font-size: 20px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #eea41c;
+    transition: .2s ease;
+}
+
+nav ul a:hover {
+    color: #000;
+}
+
+button {
+    border: none;
+    font-size: 15px;
+    background-color: #eea41c;
+    color: #fff;
+    padding: 3px 7px;
+    border-radius: 7px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #eea41c;
+    color: #000;
+    scale: 1.1;
+}
+
+.container1 {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 form {
+    width: 670px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: rgba(240, 248, 255, 0.226);
+    backdrop-filter: blur(10px);
+    flex-wrap: wrap;
+    transition: 1s ease;
+}
+
+.container1 form:hover {
+    background-color: #fff;
+}
+
+.container1 form h1 {
+    color: #eea41c;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+}
+
+.container1 form input {
+    width: 290px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid #000;
+}
+
+.container1 form input::placeholder {
+    color: #eea41c;
+}
+
+.container1 form #lastName,
+.container1 form #mobile {
+    margin-left: 20px;
+}
+
+.container1 form h4 {
+    color: #eea41c;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 20px;
+}
+
+.container1 form textarea {
+    background: none;
+    border: none;
+    border-bottom: 2px solid #000;
+    color: #eea41c;
+    font-weight: 200;
+    font-size: 15px;
+    outline: none;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 80px;
+    max-height: 80px;
+}
+
+textarea::-webkit-scrollbar {
+    width: 1em;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: rgba(194, 194, 194, 0.713);
+}
+
+.container1 form #button {
+    border: none;
+    font-size: 15px;
+    background-color: #eea41c;
+    color: #fff;
+    padding: 3px 7px;
+    border-radius: 7px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+.container1 form #button:hover {
+    background-color: #eea41c;
+    color: #000;
+    scale: 1.1;
+}
+
+
+
